@@ -1,0 +1,42 @@
+.third{
+    background: hsl(268, 75%, 9%);
+    color: hsl(52, 100%, 62%);
+}
+
+.third .display{
+    background: hsl(268, 71%, 12%);
+}
+
+.third .buttons-container{
+    background: hsl(268, 71%, 12%);
+}
+
+.third button{
+    background-color: hsl(268, 47%, 21%) ;
+    color: hsl(52, 100%, 62%);
+    box-shadow:  0 -5px 0 hsl(290, 70%, 36%) inset;}
+
+.third button:hover{
+    color: hsl(52, 100%, 62%);
+}
+
+.third .background{
+    background: hsl(268, 47%, 21%);
+}
+
+.third .circle,.third #equal{
+    background: hsl(176, 100%, 44%);
+    box-shadow:  0 -5px 0 hsl(177, 92%, 70%) inset;
+    color: black;
+}
+
+.third #equal:hover{
+    background: hsl(176, 96%, 38%);
+    box-shadow:  0 -5px 0 hsl(177, 58%, 59%) inset;
+}
+
+
+.third #del, .third #reset{
+    background: hsl(281, 89%, 26%);
+    box-shadow:  0 -5px 0 hsl(290, 70%, 36%) inset;
+}

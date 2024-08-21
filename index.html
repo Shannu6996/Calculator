@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.png">
+  
+  <title>Calculator app</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h3>calc</h3>
+      <div class="theme">
+        <h4>Theme</h4>
+        <div class="toggle">
+          <span>
+            <span class="one">1</span>
+            <span class="two">2</span>
+            <span class="three">3</span>
+          </span>
+          <div class="background"><div class="circle"></div></div>
+        </div>
+
+      </div>
+    </header>
+    <div class="calculator">
+      <div class="display"></div>
+      <div class="buttons-container">
+        <button value="7" onclick="showBtn(this.value)">7</button>
+        <button value="8" onclick="showBtn(this.value)">8</button>
+        <button value="9" onclick="showBtn(this.value)">9</button>
+        <button onclick="del()" id="del">del</button>
+        <button value="4" onclick="showBtn(this.value)">4</button>
+        <button value="5" onclick="showBtn(this.value)">5</button>
+        <button value="6" onclick="showBtn(this.value)">6</button>
+        <button value="+" onclick="showBtn(this.value)">+</button>
+        <button value="1" onclick="showBtn(this.value)">1</button>
+        <button value="2" onclick="showBtn(this.value)">2</button>
+        <button value="3" onclick="showBtn(this.value)">3</button>
+        <button value="-" onclick="showBtn(this.value)">-</button>
+        <button value="." onclick="showBtn(this.value)">.</button>
+        <button value="0" onclick="showBtn(this.value)">0</button>
+        <button value="/" onclick="showBtn(this.value)">/</button>
+        <button value="*" onclick="showBtn(this.value)">x</button>
+        <button onclick="reset()" id="reset">reset</button>
+        <button onclick="result()" id="equal">=</button>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="app.js"></script>
+  <div class="attribution">
+    Coded by <a href="https://www.linkedin.com/in/shanmuk-sriram-tej-yepuganti-a53b89293/">Shanmuk</a>
+  </div>
+</body>
+</html>
